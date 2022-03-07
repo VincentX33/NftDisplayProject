@@ -134,10 +134,20 @@ b:hover, h3:hover {
 }
 
 .footer {
-    margin:auto;
+    display: block;
+    margin-left:550px;
     font-family:Lucida Sans;
 }
 
 .footer a{
     text-decoration: none;
+}
+
+.icon-lg {
+    width:30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    border : 2px double blue;
+    padding:10px;
 }

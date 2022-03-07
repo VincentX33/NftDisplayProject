@@ -27,14 +27,17 @@ Users should be able to:
 ### Screenshot
 The site has default and active states. Active states include hovering on three seperate elements
 ![Default Site](./images/screenshots/Screenshot1.png)
+
 ![Image Hover](./images/screenshots/Screenshot2.png)
+
 ![Heading Hover](./images/screenshots/Screenshot3.png)
+
 ![Name Hover](./images/screenshots/Screenshot4.png)
 
 ### Links
 
 - Solution URL: [Solution Code](https://github.com/VincentX33/NftDisplayProject)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://vincentx33.github.io/NftDisplayProject/)
 
 ## My process
 
@@ -47,7 +50,7 @@ The site has default and active states. Active states include hovering on three 
 ### What I learned
 
 The project was pretty simple, but inexperience plays a part in making simple things difficult. My greatest mistake was in being overly ambitious from the start: I designed the outer flexbox before actually getting a working card. This meant that I had to go through a lot more headbutting than I would have needed to if I had only designed everything step by step.
-Getting specific text elements to change font color on mouse hover wasn't difficult, but it was the image hover that challenged me. A lot of googling and reading code from other websites having similar effect using Firefox's inspect element finally taught me the necessary details, but I had to go through trial and error through achieve matched images. But it was worth it!!!
+Getting specific text elements to change font color on mouse hover wasn't difficult, but it was the image hover that challenged me. A lot of googling and reading code from other websites having similar effect using Firefox's inspect element finally taught me the necessary details, but I had to go through trial and error to achieve matched images. But it was worth it!!!
 
 ### Continued development
 Of course, the site is far from perfect. While it displays the required static page, it still lacks the level of responsiveness I'd like to achieve. As I keep learning, I'll keep trying to improve it.
@@ -57,4 +60,4 @@ Of course, the site is far from perfect. While it displays the required static p
 ## Author
 
 - Frontend Mentor - [@VincentX33](https://www.frontendmentor.io/profile/VincentX33)
-- Twitter - [@V1nceeeent/](https://www.twitter.com/V1nceeeent/)
+- Twitter - [@V1nceeeent](https://www.twitter.com/V1nceeeent/)
