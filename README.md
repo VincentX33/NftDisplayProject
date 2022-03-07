@@ -26,12 +26,17 @@ Users should be able to:
 
 ### Screenshot
 The site has default and active states. Active states include hovering on three seperate elements
+
+Default Site
 ![Default Site](./images/screenshots/Screenshot1.png)
 
+Image Hover
 ![Image Hover](./images/screenshots/Screenshot2.png)
 
+Heading Hover
 ![Heading Hover](./images/screenshots/Screenshot3.png)
 
+Name Hover
 ![Name Hover](./images/screenshots/Screenshot4.png)
 
 ### Links
