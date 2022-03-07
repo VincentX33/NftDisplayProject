@@ -7,31 +7,44 @@
     <title>NFT Card Preview Challenge</title>
     <!--Add required fonts here-->
     <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
+<header></header>
 <body>
+<main>
     <div class="OuterContainer">
         <div class="container">
-            <img src="./images/image-equilibrium.jpg" alt="nftCard" class="nftpic">
-            <h3 class="Caption">Equilibrium #3429</h3>
-            <p class="Caption">Our Equilibrium collection promotes balance and calm.</p>
+            <div>
+            <a class="nftlink" href="#">
+                <img src="./images/image-equilibrium.jpg" alt="nftCard" class="nftpic">
+            </a>
+            </div>
+            
+            <h3 class="marginlefter">Equilibrium #3429</h3>
+            <p class="marginlefter">Our Equilibrium collection promotes balance and calm.</p>
             <div class="innerFlex">
                 <span class="innerFlex2">
                     <!--Price-->
                     <img src="./images/icon-ethereum.svg" alt="Ethereum-Icon" class="icon">
-                    <p>0.041 ETH</p>
+                    <p class="cyan">  0.041 ETH</p>
                 </span>
                 <span class="innerFlex2">
                     <!--Time-->
                     <img src="./images/icon-clock.svg" alt="Time-Icon" class="icon">
-                    <p>3 days left</p>
+                    <p> 3 days left</p>
                 </span>
             </div>
-            <hr>
-            <div class="attr innerFlex2">
-                <img src="./images/image-avatar.png" alt="creator" class="icon">
-                <p>Creation of Jules Wyvern</p> 
+            <hr class="lineWidth">
+            <div class="attr innerFlex2 marginlefter">
+                <img src="./images/image-avatar.png" alt="creator" class="face">
+                <p>Creation of <b>Jules Wyvern</b></p> 
             </div>
         </div>
     </div>
+    <p class="footer"> Solved by <a href="#" target="__blank"><b>Vincent Dsouza </b></a> </p>
+</main>
+    
 </body>
 </html>

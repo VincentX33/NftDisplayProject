@@ -1,39 +1,42 @@
 body {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Outfit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aqua;
+    background-color: hsl(217, 54%, 11%);
 }
 
 .icon {
     width:20px;
     height: 20px;
+    margin-right: 8px;
 }
 
 .OuterContainer {
     width: 99vw;
-    height: 97vh;
+    height: 96vh;
     display: flex;
     justify-content: center;
     align-items:center;
 }
 
 .container {
-    width: 270px;
-    height: 435px;
-    border: 6px solid rgb(27, 170, 14);
+    width: 335px;
+    height: 550px;
+    border-radius: 7%;
+    background-color: hsl(216, 50%, 16%);
 }   
 
 .nftpic {
-    width: 230px;
+    width: 270px;
     height:250px;
     display:block;
     margin:auto;
-    margin-top:15px;
+    margin-top:20px;
+    border-radius: 3%;
 }
 
 .innerFlex {
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 80%;
     margin:auto;
 }
@@ -41,8 +44,8 @@ body {
 .innerFlex2 {
     display:flex;
     align-items: center;
-    width:150px;
-    justify-content: space-between;
+    width:130px;
+    justify-content: center;
 }
 
 .innerFlex3 {
@@ -53,17 +56,88 @@ body {
 }
 
 h3{
-    color:rgb(66, 13, 212);
+    color:hsl(0, 0%, 100%);
+    margin-top: 40px;
 }
 
 p {
-    width:250px;
+    width: 250px;
+    color: hsl(215, 51%, 70%);
 }
 
 .attr {
-    width: 350px;
+    width: 300px;
 }
 
-.Caption {
-    margin-left:20px;
+.marginlefter {
+    margin-left:30px;
+}
+
+.lineWidth {
+    width: 250px;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.face {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+.cyan {
+    color:hsl(178, 100%, 50%);
+}
+
+b:hover, h3:hover {
+    color:cyan;
+    cursor: pointer;
+}
+.eye {
+    display: inline-block;
+}
+
+.nftpic:hover {
+    background-image: url("./images/image-equilibrium.jpg");
+    background-color: cyan;
+}
+
+.nftlink {
+    width: 220px;
+    height:250px;
+    margin:auto;
+    display:inline-block;
+    position: relative;
+    border-radius: 3%;
+    padding: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nftlink:hover::after{
+    content: url("./images/icon-view.svg");
+    width: 270px;
+    height: 250px;
+    border-radius: 3%;
+    position: absolute;
+    top: 45px;
+    left: 32px;
+    right: 0;
+    bottom: 5px;
+    display: grid;
+    margin: auto;
+    place-items: center;
+    background-color: rgba(0, 255, 247, 0.5);
+}
+
+.footer {
+    margin:auto;
+    font-family:Lucida Sans;
+}
+
+.footer a{
+    text-decoration: none;
 }
